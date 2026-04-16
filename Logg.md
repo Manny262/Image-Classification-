@@ -11,19 +11,20 @@
 **Tema:** Kaggle-kurs — Intro til TensorFlow & Keras
 
 **Fokus:**
-- Gjennomgå Kaggle sin "Intro to Deep Learning"-guide
+- Gjennomgå Kaggle sin "Intro to Machine learning"
 - Forstå hva TensorFlow og Keras er, og hvordan de fungerer sammen
-- Lære om tensors, modellbygging med Sequential API, og kompilering
-- Kjøre første eksempelkode i Kaggle Notebook
+- Kjøre eksempelkoder i Kaggle Notebook
 
 **Hva jeg gjorde:**
--
+- Intro to machine learning
 
 **Hva jeg lærte:**
--
+- forstå og laste opp data til model
+- Underfitting og Overfitting for bedre performance
+- Random Forest: ML algoritme 
 
 **Utfordringer:**
--
+- 
 
 ---
 
