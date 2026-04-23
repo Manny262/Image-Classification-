@@ -28,28 +28,94 @@
 
 ---
 
-## Dag 2 — Torsdag 16. april
-**Tema:** Kaggle-kurs — Nevrale nettverk & CNN-teori
+
+
+## Dag 2 — Torsdag 17. april
+**Tema:** Forelesning om CNN 
 
 **Fokus:**
-- Fullføre resten av Kaggle-guiden (DNN, Dropout, Batch Normalization)
-- Starte på Kaggle "Computer Vision"-kurset (convolution, pooling)
-- Forstå hvorfor CNN er egnet for bildeklassifisering
-- Gjøre øvelsene i Kaggle Notebooks
+- se youtube video om Convolutional Neural Network
 
 **Hva jeg gjorde:**
--
-
+- fikk et innblikk om hvordan CNN fungerer 
 **Hva jeg lærte:**
--
-
+- Hvordan mennesker gjenkjenner bilder 
+- Hvordan data bruker filtere for å finne detaljer
+- ReLU (Rectified Linear Unit)
+- Pooling
 **Utfordringer:**
 -
 
 ---
 
 ## Dag 3 — Fredag 17. april
-**Tema:** Datasett & databehandling
+**Tema:** Kaggle-kurs — Intro to Deep Learning
+
+**Fokus:**
+- Starte med "Intro to deep learning" (DNN, Dropout, Batch Normalization)
+- Gjøre øvelsene i Kaggle Notebooks
+
+**Hva jeg gjorde:**
+- gikk gjennom tre temaer, gjennom tutorials og exercises
+
+**Hva jeg lærte:**
+- lineære enheter og byggesteinene i deep learning
+- Deep Neural nettworks 
+- The loss function og optimizer
+
+**Utfordringer:**
+- 
+
+---
+
+## Dag 4 — Mandag 20. april
+**Tema:** Kaggle-kurs — Intro to Deep Learning
+
+**Fokus:**
+- Fullføre "Intro to deep learning"
+- Gjøre øvelsene i Kaggle Notebooks
+
+**Hva jeg gjorde:**
+- Fullførte Intro to Deep learning
+- Startet på kurset "Computer Vision" 
+
+**Hva jeg lærte:**
+- Overfitting og Underfitting
+- Dropout and Batch Normalization 
+- Binary Classification
+- The Convolutional Classifier 
+
+**Utfordringer:**
+- Hvordan man oppdager Overfitting eller Underfitting
+
+---
+
+## Dag 5 — Tirsdag 21. april
+**Tema:** Kaggle-kurs — Computer vision 
+
+**Fokus:**
+- Computer Vision kurs som dekker CNN (Convolutional Neural Networks)
+- Forstå hvorfor CNN er egnet for bildeklassifisering
+- Lære om convolutional lag, pooling og feature detection
+- Gjøre øvelsene i Kaggle Notebooks
+
+**Hva jeg gjorde:**
+- Fullførte kurset om Computer Vision
+
+**Hva jeg lærte:**
+- Convolution og ReLU
+- Maximum Pooling (Feature Extraction)
+- Padding og Stride 
+- Designe en enkel Binær Bildeklassifiserer (skille mellom to kategorier)
+- Data augmentation 
+**Utfordringer:**
+- 
+
+---
+
+
+## Dag 4 — Onsdag 22. april
+**Tema:** Datasett & databehandling 
 
 **Fokus:**
 - Velge datasett (CIFAR-10 eller eget datasett)
@@ -58,57 +124,19 @@
 - Visualisere eksempelbilder med Matplotlib
 
 **Hva jeg gjorde:**
--
+- Utforsket et datasett fra Tensorflow (MNIST)
+- Feilsøkte problemer med WSL, Vscode og python pakker 
 
 **Hva jeg lærte:**
--
+- Ikke ha prosjektet ditt i "mnt" mappen i WSL (Det går tregt)
 
 **Utfordringer:**
--
+- WSL. Brukte over halve dagen på å finne ut av et problem med virtual environment og vscode. 
 
 ---
 
-## Dag 4 — Mandag 20. april
-**Tema:** Bygge første CNN-modell
 
-**Fokus:**
-- Bygge en enkel CNN med Conv2D, MaxPooling og Dense-lag
-- Kompilere modellen med optimizer, loss og metrics
-- Trene modellen på treningsdata med validation_split
-- Observere accuracy og loss under trening
-
-**Hva jeg gjorde:**
--
-
-**Hva jeg lærte:**
--
-
-**Utfordringer:**
--
-
----
-
-## Dag 5 — Tirsdag 21. april
-**Tema:** Evaluering & visualisering
-
-**Fokus:**
-- Evaluere modellen på testdata
-- Plotte trenings- og valideringskurver (accuracy & loss)
-- Lage confusion matrix for å analysere feil
-- Identifisere om modellen overfitter eller underfitter
-
-**Hva jeg gjorde:**
--
-
-**Hva jeg lærte:**
--
-
-**Utfordringer:**
--
-
----
-
-## Dag 6 — Onsdag 22. april
+## Dag 5 — Torsdag 23. april
 **Tema:** Forbedring — Data Augmentation & Transfer Learning
 
 **Fokus:**
@@ -128,7 +156,7 @@
 
 ---
 
-## Dag 7 — Torsdag 23. april
+## Dag 6 — Fredag 24. april
 **Tema:** Django webapp — oppsett og integrasjon
 
 **Fokus:**
