@@ -68,6 +68,10 @@ preprocess_input = keras.applications.mobilenet_v2.preprocess_input
 
 img_shape = img_size + (3,)
 base_model = keras.applications.MobileNetV2(input_shape=img_shape, include_top = False, weights='imagenet')
+base_model.trainable=False
+
+# base_model.summary()
+
 image_batch, label_batch = next(iter(train_ds))
 feature_batch = base_model(image_batch)
 print(feature_batch.shape)
