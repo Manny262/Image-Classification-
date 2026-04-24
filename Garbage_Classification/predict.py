@@ -33,5 +33,4 @@ def predict_image(img_path: str) -> str:
 
 if __name__ == "__main__":
     # Example usage: change the image path here
-    # predict_image("Dataset/Garbage classification/glass/glass1.jpg")
-    predict_image("Dataset/Garbage classification/plastic/plastic5.jpg")
+    predict_image("Dataset/Garbage classification/glass/glass1.jpg")
