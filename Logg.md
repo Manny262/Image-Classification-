@@ -114,7 +114,7 @@
 ---
 
 
-## Dag 4 — Onsdag 22. april
+## Dag 6 — Onsdag 22. april
 **Tema:** Datasett & databehandling 
 
 **Fokus:**
@@ -136,40 +136,19 @@
 ---
 
 
-## Dag 5 — Torsdag 23. april
-**Tema:** Forbedring — Data Augmentation & Transfer Learning
+## Dag 7 — Torsdag 23. april
+**Tema:** Transfer learning og feature extraction
 
 **Fokus:**
 - Implementere data augmentation (rotasjon, flipping, zoom)
 - Utforske transfer learning med en pretrained modell (f.eks. MobileNetV2)
 - Sammenligne resultater med og uten forbedringer
-- Lagre den beste modellen (.h5 eller SavedModel)
 
 **Hva jeg gjorde:**
--
-
+- valgte en base model (MobileNetV2), fordi den er effektiv og lettvektig i forhold til andre modeller (som ResNet50). Passer fint hvis man skal mobile applikasjoner.
+- Startet med fine tuning av modellen
 **Hva jeg lærte:**
--
-
-**Utfordringer:**
--
-
----
-
-## Dag 6 — Fredag 24. april
-**Tema:** Django webapp — oppsett og integrasjon
-
-**Fokus:**
-- Sette opp et Django-prosjekt med en enkel bildeopplastingsside
-- Laste inn den trente modellen i Django-backend
-- Lage en view som tar imot et bilde og returnerer prediksjon
-- Teste at hele flyten fungerer lokalt
-
-**Hva jeg gjorde:**
--
-
-**Hva jeg lærte:**
--
+- litt mer om transfer learning, og analysere resultater 
 
 **Utfordringer:**
 -
@@ -177,52 +156,23 @@
 ---
 
 ## Dag 8 — Fredag 24. april
-**Tema:** Webapp ferdigstilling & design
-
+**Tema:** Fine-tune + dokumentasjon
 **Fokus:**
-- Forbedre UI med CSS/Bootstrap (drag-and-drop, resultatvisning)
-- Vise prediksjon med confidence-score og klassebilde
-- Feilhåndtering (feil filtype, for store bilder, osv.)
-- Teste med ulike bilder og sjekke at alt fungerer
+- Fine tuning
+- Dokumentasjon
+- Lage et script som tar i mot et bilde og returnerer prediksjon
+- Rydde opp i koden
 
 **Hva jeg gjorde:**
--
+- Eksprimenterte med ulike topplagskonfigurasjoner
+- la til class weights for bedre håndtering av datasettet
+- oppnådde ~87% val accuracy
 
 **Hva jeg lærte:**
--
+- Ubalanserte klasser påvirker accuracy betydlig
+- For agressiv augmentation kan føre til mer overfitting
+
 
 **Utfordringer:**
--
+- redusere overfitting, kan hende at et større datasett ville ha vært løsningen
 
----
-
-## Dag 9 — Lørdag 25. april
-**Tema:** Dokumentasjon & presentasjon
-
-**Fokus:**
-- Skrive ferdig README.md med prosjektbeskrivelse og resultater
-- Fullføre denne loggen med alt jeg har gjort og lært
-- Forberede presentasjon / demo av webappen
-- Rydde opp i koden og pushe alt til GitHub
-
-**Hva jeg gjorde:**
--
-
-**Hva jeg lærte:**
--
-
-**Utfordringer:**
--
-
----
-
-## Refleksjon
-
-**Hva gikk bra:**
--
-
-**Hva ville jeg gjort annerledes:**
--
-
-**Hva vil jeg lære videre:**
--
