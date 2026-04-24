@@ -124,10 +124,12 @@ This project was trained locally using a personal GPU with WSL (Windows Subsyste
 
 - [TensorFlow Install Guide](https://www.tensorflow.org/install/pip)
 
-Then install the remaining dependencies:
+Create a virtual environment and install all dependencies inside it (including TensorFlow):
 
 ```bash
-pip install matplotlib numpy
+python -m venv venv
+source venv/bin/activate
+pip install tensorflow matplotlib numpy
 ```
 
 ### Training the model
