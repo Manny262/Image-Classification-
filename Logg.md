@@ -3,7 +3,6 @@
 > **Periode:** 15. april – 25. april 2026
 > **Tema:** Bildeklassifisering med maskinlæring
 > **Fag:** Utvikling (fordypningsoppgave)
-> **Ressurs:** Kaggle — Intro to Deep Learning / Computer Vision (TensorFlow & Keras)
 
 ---
 
@@ -176,3 +175,11 @@
 **Utfordringer:**
 - redusere overfitting, kan hende at et større datasett ville ha vært løsningen
 
+---
+
+## 📚 Ressurser
+
+- [Kaggle — Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
+- [Kaggle — Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
+- [Kaggle — Computer Vision](https://www.kaggle.com/learn/computer-vision)
+- [TensorFlow — Transfer Learning Documentation](https://www.tensorflow.org/tutorials/images/transfer_learning#data_preprocessing)

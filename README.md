@@ -93,7 +93,7 @@ Dense(6)       ← one output per class
 
 The model reached approximately **87% validation accuracy** after fine-tuning.
 
-![Training and Validation Accuracy](Garbage_Classification/accuracy_plot16.png)
+![Training and Validation Accuracy](Garbage_Classification/plots/final_result.png)
 
 The plot shows accuracy and loss over all training epochs. The vertical line marks where fine-tuning starts.
 
@@ -104,14 +104,15 @@ The plot shows accuracy and loss over all training epochs. The vertical line mar
 ```
 Image-Classification-/
 ├── Garbage_Classification/
-│   ├── train.py               # Main training script
-│   ├── predict.py             # Run predictions on new images
+│   ├── train.py                  # Main training script
+│   ├── predict.py                # Run predictions on new images
 │   ├── garbage_classifier.keras  # Saved trained model
-│   └── accuracy_plot16.png    # Training history plot
+│   └── plots/                    # Training history plots
 ├── notebooks/
-│   └── fashion_MNIST/         # Early experiments with Fashion MNIST
-├── Logg.md                    # Daily learning log (in Norwegian)
-└── README.md                  # This file
+│   └── fashion_MNIST/            # Early experiments with Fashion MNIST
+│       └── plots/
+├── Logg.md                       # Daily learning log (in Norwegian)
+└── README.md                     # This file
 ```
 
 ---
