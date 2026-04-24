@@ -47,7 +47,7 @@ The process has two phases:
 
 ## Dataset
 
-- **Source:** [Garbage Classification dataset on Kaggle](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)
+- **Source:** [Garbage Classification dataset on Kaggle](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification/data)
 - **Classes:** 6 (cardboard, glass, metal, paper, plastic, trash)
 - **Split:** 80% training / 20% validation
 - **Image size:** 224 × 224 pixels (required by MobileNetV2)
@@ -120,10 +120,14 @@ Image-Classification-/
 
 ### Prerequisites
 
-Make sure you have Python 3.9+ and the following packages installed:
+This project was trained locally using a personal GPU with WSL (Windows Subsystem for Linux). TensorFlow GPU setup can vary depending on your system, so follow the official install guide to get it working on your machine:
+
+- [TensorFlow Install Guide](https://www.tensorflow.org/install/pip)
+
+Then install the remaining dependencies:
 
 ```bash
-pip install tensorflow matplotlib numpy
+pip install matplotlib numpy
 ```
 
 ### Training the model
@@ -147,11 +151,12 @@ python predict.py
 
 ---
 
+
 ## Technologies Used
 
 | Tool | Purpose |
 |---|---|
-| Python 3 | Main programming language |
+| Python 3. | Main programming language |
 | TensorFlow / Keras | Building and training the neural network |
 | MobileNetV2 | Pre-trained base model (transfer learning) |
 | NumPy | Numerical operations |
